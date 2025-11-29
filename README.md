@@ -1,7 +1,7 @@
 # YOLOv5 Pothole Detection – README
 ## Project Overview
 This project trains a **YOLOv5 model** to detect potholes using a custom dataset. The workflow includes:
-* Downloading dataset from Kaggle
+* Downloading dataset
 * Parsing XML annotations (Pascal VOC format)
 * Converting annotations to YOLOv5 format
 * Visualizing bounding boxes
@@ -35,11 +35,7 @@ archive/
 
 The script confirms PyTorch + GPU availability.
 
-### Load Dataset from Kaggle
-
-```
-path = kagglehub.dataset_download("farzadnekouei/pothole-image-segmentation-dataset")
-```
+Load Dataset 
 
 The dataset includes:
 
